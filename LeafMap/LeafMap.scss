@@ -1,0 +1,14 @@
+.leaflet-container {
+  height: 500px;
+  width: 100%;
+
+  /*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+  */
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    height: 95vh;
+    width: 100%;
+  }
+}
